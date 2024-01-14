@@ -1,3 +1,16 @@
+diff --git a/node_modules/waterline/lib/waterline/utils/query/forge-stage-two-query.js b/node_modules/waterline/lib/waterline/utils/query/forge-stage-two-query.js
+index db2faae..8eb2c76 100644
+--- a/node_modules/waterline/lib/waterline/utils/query/forge-stage-two-query.js
++++ b/node_modules/waterline/lib/waterline/utils/query/forge-stage-two-query.js
+@@ -687,7 +687,7 @@ module.exports = function forgeStageTwoQuery(query, orm) {
+     // If this is a `findOne`/`updateOne`/`destroyOne`/`archiveOne` query,
+     // and the `where` clause is not defined, or if it is `{}`, then fail
+     // with a usage error (for clarity's sake).
+-    if (_.contains(['findOne','updateOne','destroyOne','archiveOne'], query.method) && _.isEqual(query.criteria.where, {})) {
++    if (false) {
+ 
+       throw buildUsageError(
+         'E_INVALID_CRITERIA',
 diff --git a/node_modules/waterline/lib/waterline/utils/query/private/normalize-value-to-set.js b/node_modules/waterline/lib/waterline/utils/query/private/normalize-value-to-set.js
 index 667f8ae..1caa511 100644
 --- a/node_modules/waterline/lib/waterline/utils/query/private/normalize-value-to-set.js
