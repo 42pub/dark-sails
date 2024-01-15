@@ -1,6 +1,6 @@
 {
   "name": "muddy-water",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "description": "Darkside of sails",
   "main": "index.js",
   "scripts": {
